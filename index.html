@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./scripts/scripts.js" defer type="module"></script>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Automoviles</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="./materials/car-logo.png" class="logo" alt="" />
+      </div>
+
+        <nav>
+            <a href="#">Nosotros</a>
+            <a href="#">Anuncios</a>
+            <a href="#">Blog</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </header>
+    <section class="container-encabezado">
+        <h1>Administracion</h1>
+        <div class="imagen-autos">
+            <img src="./materials/pngwing.png" class="imagen-autos" alt="" />
+        </div>
+
+    </section>
+    <section class="container" id="dataIn">
+      <fieldset>
+        <legend>Informacion del anuncio</legend>
+        <form>
+          <input type="text" id="txtId" name="id" hidden />
+          <label>
+            TITULO: <input type="text" id="txtTitulo" name="titulo" placeholder="Titulo" required/>
+          </label>
+          <br /><br />
+          <label>
+            TRANSACCION:
+            <select name="transaccion" required>
+                <option value=" " disabled selected>--- Elegir transaccion ---</option> 
+                <option value="venta">Venta</option>
+                <option value="alquiler">Alquiler</option>
+                <option value="permuta">Permuta</option>
+              </select>
+          </label>
+          <br /><br />
+          <label>
+            DESCRIPCION: <input type="text" id="txtDescripcion" name="descripcion" placeholder="Descripcion" required/>
+          </label>
+          <br>
+          <label>
+            PRECIO: <input type="number" id="numberPrecio" name="precio" placeholder="Precio" required/>
+          </label>
+          <br>
+          <label>
+            <img class="icono" src="./materials/puerta-del-auto.png" alt=""> <input type="number" id="numberPuertas" name="puertas" placeholder="Precio" required/>
+          </label>
+          <label>
+            <img class="icono" src="./materials/kilometro.png" alt=""> <input type="number" id="numberKms" name="Kms" placeholder="Kms"/>
+          </label>
+          <label>
+            <img class="icono" src="./materials/motor.png" alt=""><input type="number" id="numberPotencia" name="potencia" placeholder="Potencia" required/>
+          </label>
+          
+          <br>
+          
+        </form>
+      </fieldset>
+      
+    </section>
+    <section class="container">
+        <button id="btnAlta"class="mostrar-boton" type="button"><img class="icono" src="./materials/guardar.png" alt=""> Guardar</button>
+        <button id="btnModificar" class="btn-opcional" type="button">
+          Modificar
+        </button>
+        <button id="btnEliminar" class="btn-opcional" type="button">
+          Eliminar
+        </button>
+        <button id="btnCancelar" class="btn-opcional" type="reset">
+          Cancelar
+        </button>
+    </section>
+   
+
+    <section class="container tabla">
+      <div id="divTabla"></div>
+    </section>
+
+    <footer>
+        <nav>
+            <a href="#">Nosotros</a>
+            <a href="#">Anuncios</a>
+            <a href="#">Blog</a>
+            <a href="#">Contacto</a>
+        </nav>
+        <div>
+            <p>Todos los derechos reservados 2019</p>
+          </div>
+      </footer> 
+  </body>
+</html>
