@@ -1,0 +1,64 @@
+{
+  "anuncios": [
+    {
+      "id": 1,
+      "titulo": "Testing",
+      "transaccion": "venta",
+      "descripcion": "descripcion",
+      "precio": 8000,
+      "num_KMS": "111",
+      "num_puertas": "2",
+      "potencia": "5"
+    },
+    {
+      "id": 2,
+      "titulo": "Testing2",
+      "transaccion": "alquiler",
+      "descripcion": "descripcion",
+      "precio": 500,
+      "num_KMS": "111",
+      "num_puertas": "2",
+      "potencia": "5"
+    },
+    {
+      "id": 3,
+      "titulo": "Testing3",
+      "transaccion": "venta",
+      "descripcion": "descripcion",
+      "precio": 3400,
+      "num_KMS": "250",
+      "num_puertas": "2",
+      "potencia": "10"
+    },
+    {
+      "id": 4,
+      "titulo": "Testing4",
+      "transaccion": "alquiler",
+      "descripcion": "descripcion4",
+      "precio": 1500,
+      "num_KMS": "500",
+      "num_puertas": "2",
+      "potencia": "10"
+    },
+    {
+      "id": 5,
+      "titulo": "Testing5",
+      "transaccion": "venta",
+      "descripcion": "descripcion5",
+      "precio": 4100,
+      "num_KMS": "160",
+      "num_puertas": "2",
+      "potencia": "10"
+    },
+    {
+      "id": 6,
+      "titulo": "Testing6",
+      "transaccion": "permuta",
+      "descripcion": "descripcion6",
+      "precio": 1200,
+      "num_KMS": "123",
+      "num_puertas": "2",
+      "potencia": "10"
+    }
+  ]
+}

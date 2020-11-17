@@ -4,7 +4,7 @@ function Anuncio (id, titulo, transaccion, descripcion, precio){
         this.titulo = titulo;
         this.transaccion = transaccion;
         this.descripcion = descripcion;
-        this.precio = precio;
+        this.precio = parseInt(precio);
     }
 
 export default function Anuncio_Auto (id, titulo, transaccion, descripcion, precio, num_puertas, num_KMs, potencia){
@@ -12,7 +12,7 @@ export default function Anuncio_Auto (id, titulo, transaccion, descripcion, prec
     //PROPiEDAD QUE APUNTA CONSTRUCTOR anuncio
     this.ClasePadre = Anuncio;
     //SE EJECUTA EL CTR Y PASA VALORES
-    this.ClasePadre(id, titulo, transaccion, descripcion, precio);
+    this.ClasePadre(id, titulo, transaccion, descripcion, parseInt(precio));
     this.num_puertas = num_puertas;
     this.num_KMs = num_KMs;
     this.potencia = potencia;
